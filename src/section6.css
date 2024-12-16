@@ -1,0 +1,81 @@
+.text-container {
+    text-align: center; 
+  padding: 12px;
+}
+
+.trading-text {
+    font-size: 45px; 
+    font-weight: bold;
+}
+
+.download-text {
+    font-size: 25px; 
+}
+.app-store{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+   
+   
+}
+.last-signin{
+    display: flex;
+    border: 1px solid #fd7b54;
+    background-color:#fbe4e1;
+    gap: 20px; 
+    padding: 29px 51px;
+    border-radius: 23px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.signnn{
+    border: 1px solid black;
+    padding: 10px 53px !important;
+    border-radius: 25px;
+    background-color: #ff3c00;
+    color: #fffffd;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+}
+.bucket{
+    
+color: #fe461f;
+font-size: 30px;
+}
+.apple{
+    display: flex;
+    gap: 15px;
+    border: 1px solid black;
+    padding:  9px 23px;
+    color: azure;
+    background-color: black;
+    border-radius: 10px;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding:  7px 23px;
+}
+.scanner{
+    border: 1px solid lightgrey;
+    padding: 3px;
+    border-radius: 10px;
+}
+.com{
+    color: #fffffd;
+    font-size: 20px;
+    font-weight: bold;
+}
+

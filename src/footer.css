@@ -1,0 +1,14 @@
+.footer{
+    background-color: #0c0d12;;
+}
+.community{
+    border: 1px solid white;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 6px 25px;
+}
+.about{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
