@@ -1,168 +1,96 @@
-.cur-1{
-    border: 1px solid white;
-    width: 350px;
-    padding: 3px;
-    height: 400px;
+.animation-1{
+ 
+  height: 400px;
+  width: 480px;
+background-color: chocolate;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-.cur-2{
-    border: 1px solid white;
-    width: 350px;
-    padding: 3px;
-    height: 400px;
+.hole{
+  background-color: rgb(255, 127, 127);
 }
-.slide-container{
-    max-width: 1120px;
-    width: 100%;
-    padding: 40px 0;
+.leverage{
+  background-color: rgb(255, 127, 127);;
+}
+.animation-2{
+ 
+  height: 400px;
+  width: 480px;
+ background-color: 
+ #00bd82
+ 
+ ;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.animation-styling-2{
+ width: 100%;
+ height: 100%;
+  position: relative;
+  top: 10%;
+}
+.animation-3{
+
+  height: 400px;
+  width: 480px;
+background-color: #25272a
+
+;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.animatiomn-2{
+ 
+  height: 400px;
+  width: 480px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.only{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.buy{
+  color: black;
+  font-size: 27px;
+}
+.onlyy{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.bots{
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+.future{
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: bold;
+}
+.trading{
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.activetab {
+  box-shadow: 0px 6px 0px #ff3c00; 
+}
+
+@media screen and (max-width:320px){
+  .mobile-section{
+    display: block;
   }
-  .slide-content{
-    margin: 0 40px;
-    overflow: hidden;
-    border-radius: 25px;
+  .lap-section{
+    display: none;
   }
-  .card{
-    border-radius: 25px;
-    background-color: #FFF;
-  }
-  .image-content,
-  .card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-  }
-  .image-content{
-    position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
-  }
-  .overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 25px 25px 90px 90px;
-  }
-  #overlay-1{
-    background-color: #1d259f;
-  }
-  #overlay-2{
-    background-color: #3da38d ;
-  }
-  #overlay-3{
-    background-color:#02a9f7;
-  }
-  #overlay-4{
-    background-color:  #745b81 ;
-  }
-  #overlay-5{
-    background-color:#e98585;
-  }
-  #overlay-6{
-    background-color:#cb75fd;
-  }
-  .overlay::before,
-  .overlay::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-    height: 40px;
-    width: 40px;
-    background-color: #2ea6bc;
-  }
-  .overlay::after{
-    border-radius: 0 0 0 0;
-    background-color: #FFF;
-  }
-  .card-image{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: #FFF;
-    padding: 3px;
-  }
-  .card-image .card-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #2ea6bc;
-  }
-  .name{
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
-  }
-  .description{
-    font-size: 14px;
-    color: #707070;
-    text-align: center;
-  }
-  .button{
-    border: none;
-    font-size: 16px;
-    color: #FFF;
-    padding: 8px 16px;
-    border-radius: 6px;
-    margin: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  #btn1{
-  background-color: #1d259f;
-  }
-  #btn2{
-    background-color: #3da38d ;
-  }
-  #btn3{
-    background-color:#02a9f7;
-  }
-  #btn4{
-    background-color:  #745b81 ;
-  }
-  #btn5{
-    background-color:#e98585;
-  }
-  #btn6{
-    background-color:#cb75fd;
-  }
-  .button:hover{
-    background: #1f7a99;
-  }
-  
-  .swiper-navBtn{
-    color: #fff;
-    transition: color 0.3s ease;
-  }
-  .swiper-navBtn:hover{
-    color: #4070F4;
-  }
-  .swiper-navBtn::before,
-  .swiper-navBtn::after{
-    font-size: 35px;
-  }
-  .swiper-button-next{
-    right: 0;
-  }
-  .swiper-button-prev{
-    left: 0;
-  }
-  .swiper-pagination-bullet{
-    background-color: #6E93f7;
-    opacity: 1;
-  }
-  .swiper-pagination-bullet-active{
-    background-color: #4070F4;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .slide-content{
-      margin: 0 10px;
-    }
-    .swiper-navBtn{
-      display: none;
-    }
-  }
+}
+
+ 
+
+
+
+

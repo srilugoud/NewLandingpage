@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function Animation(){
     return(
         <>
-        <div className="d-flex flex wrap justify-content-between gap-5 section">
+        <div className="d-flex flex wrap justify-content-between gap-5 section ">
         <div className="d-flex flex-wrap gap-2 align-items-center " >
         
         <div className="square-box">

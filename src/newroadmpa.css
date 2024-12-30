@@ -1,0 +1,43 @@
+.Lining{
+    width: 1000px;
+    margin: 100px auto;
+    position: relative;
+   
+}
+.containerrs{
+    width: 50%;
+    position: relative;
+   
+    padding: 10px 20px;
+}
+.containerrs:nth-child(even){
+    right: -50%;
+}
+.containerrs:nth-child::before{
+    contain: "";
+}
+.center-text{
+    padding: 20px 30px;
+   
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #191919;
+    
+}
+.Lining::after{
+    content:"";
+    position: absolute;
+    top:0px;
+    right: 50%;
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(#ff00e1,#ddff00);
+    border-radius: 50px;
+}
+.center-text h2{
+    font-size: 25px;
+}
+.center-text p{
+    font-size: 14px;
+    margin: 10px 0px;
+    margin-top: 10px;
+}

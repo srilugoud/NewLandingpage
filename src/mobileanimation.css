@@ -1,0 +1,58 @@
+@media screen and (max-width:320px){
+    .mobile-section{
+      display: block;
+    }
+    .lap-section{
+      display: none;
+    }
+  }
+  @media (max-width:321px) and(min-width:400px){
+    .mobile-section{
+        display: block;
+      }
+      .lap-section{
+        display: none;
+      }
+      .m-animation{
+        width: 364px;
+      }
+      .m-animation-22{
+        width: 364px;
+      }
+      .m-animation{
+        width: 300px;
+      }
+  }
+  .m-animation{
+    border: 1px solid white;
+  height: 127px;
+  width: 100%;
+ background-color: chocolate;
+
+ border-style: none;
+  }
+  .m-animationsss{
+    border: 1px solid white;
+  height: 127px;
+  width: 295px;
+  background-color: gray;
+
+ border-style: none;
+  }
+  .m-animation-22{
+    border: 1px solid white;
+  height: 127px;
+  width: 295px;
+  background-color: #00bd82;
+
+ border-style: none;
+  }
+  .mm-one{
+    font-size: 14px;
+  }
+  .m-futures{
+    color:aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  

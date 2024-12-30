@@ -3,14 +3,56 @@
     height: 200px;
   }
   .sectionthreee{
-    background-image: url(./assets/sectionthreebackground.png);
+   
     background-size: cover;
+  }
+  .animation-styling-2{
+    width: 400px;
+    height: 300px;
   }
   .compliance{
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 500;
   }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes circularMotion {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      transform: translateX(50px) translateY(0);
+    }
+    50% {
+      transform: translateX(50px) translateY(50px);
+    }
+    75% {
+      transform: translateX(0) translateY(50px);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+  
+  .fleximage1 {
+   
+    animation: rotate 3s linear infinite; 
+  }
+  
+  .circular-motion {
+    width: 100px;
+    height: 100px;
+    animation: circularMotion 5s linear infinite; 
+  }
+  
   .para{
     font-size: 10px;
     color: #969cad;
@@ -31,16 +73,11 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px
   }
-  .sectionn{
-    background-image: url(./assets/section.png);
-    background-size: cover;
-  }
+  
   
  
  
-   .sectionFive{
-    background-image: url(./assets/section.png);
-   }
+  
    .sub-1 {
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +102,19 @@
     gap: 11px;
 }
 
-
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.container {
+  animation: slideInFromLeft 5s ease-out forwards;
+}
 
 
 

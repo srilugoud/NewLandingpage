@@ -9,7 +9,7 @@ import Image from "./assets/image.png"
 function SectionSix(){
     return(
         <>
-      <div className="container" style={{padding: "4rem 212px"}}>
+      <div className="container d-none" style={{padding: "4rem 212px"}}>
         
         <div class="container">
     <p class="trading-text mb-0 text-center">Trade Easily Anytime, Anywhere</p>
@@ -67,7 +67,7 @@ function SectionSix(){
 
 </div>
 
-<div className="mb-5">
+<div className="mb-5 img d-none">
     <img src={Image} style={{width:"864px"}}/>
 </div>
 <div>

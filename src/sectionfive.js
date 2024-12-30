@@ -11,16 +11,17 @@ import Secondslider2 from "./assets/secondslider2.png"
 import Secondslider3 from "./assets/secondslider3.png"
 import Secondslider4 from "./assets/secondslider4.png"
 import Secondslider5 from "./assets/secondslider5.png"
-
-function SectionFive(){
+import SectionImage from "./assets/sectionimage.png"
+import SectionVideo from "./assets/sectionvideo.mp4"
+function SectionFive({isDarkMode}){
     return(
         <>
-        <div className="sectionFive">
+        <div className={`sectionFive ${isDarkMode ? "dark-mode" : "light-mode"}`}>
 <div className="sub-1 ">
     <p  style={{fontSize:"35px",fontWeight:"bold",marginTop:"50px"}}> <span className="win ">Win-Win</span>With Users</p>
     <p style={{fontSize:"25px"}} className="mb-0">Pionex's Pursuit</p>
 </div>
-<div className="d-flex flex-column gap-0 align-items: center;">
+{/* <div className="d-flex flex-column gap-0 align-items: center;">
 <div className="slider">
     <div className="slide-track" style={{marginTop:"10px"}}>
         <div className="slide">
@@ -139,6 +140,19 @@ function SectionFive(){
     </div>
 
 </div>
+</div> */}
+<div>
+ <video
+            // controls
+            autoPlay
+            loop
+            muted
+           className="animation-styling-2"
+           
+          >
+            <source src={SectionVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
 </div>
 
         </div>

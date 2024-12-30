@@ -1,5 +1,60 @@
-.footer{
-    background-color: #0c0d12;;
+
+@media  (min-width: 321px) and (max-width: 400px) {
+    .mobile-footer {
+        display: none; 
+    }
+    .footer {
+        display: block; 
+    }
+}
+@media (min-width: 326px) {
+    .mobile-footer {
+        display: none; 
+    }
+    .footer {
+        display: block;
+    }
+} 
+@media  (max-width: 320px) {
+    .mobile-footer {
+        display: block;
+    }
+    .footer {
+        display: none; 
+    }
+    .navbar-color{
+        background-color: none!important;
+    }
+} 
+.footer {
+ 
+    padding: 40px 0;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer:hover {
+   
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footer .about {
+    font-size: 26px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer .about:hover {
+    color: #f39c12;
+
+}
+
+.pod {
+    border: 1px solid #dcdcdc;
+    padding: 8px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
 }
 .community{
     border: 1px solid white;
@@ -7,8 +62,62 @@
     border-radius: 20px;
     padding: 6px 25px;
 }
-.about{
-    color: white;
-    font-size: 28px;
-    font-weight: bold;
+
+.pod:hover {
+    border-color: #f39c12;
+    transform: translateY(-5px);
 }
+
+.d-flex img {
+    transition: transform 0.3s ease;
+}
+
+.d-flex img:hover {
+    transform: scale(1.2);
+}
+.community:hover {
+    background-color: #555;
+    color: white; 
+}
+
+
+
+
+
+.community:hover {
+    background-color: #f39c12;
+    cursor: pointer;
+}
+
+/* Smooth transition for text and icons */
+footer div > div > p {
+    transition: color 0.3s ease;
+}
+
+footer div > div > p:hover {
+    color: #f39c12;
+}
+
+/* @media (min-width: 321px) and (max-width: 400px) {
+    .footer {
+        display: block;
+    }
+    .mobile-footer {
+        display: none;
+    }
+} */
+
+/* @media (max-width: 320px) {
+    .footer {
+        display: none;
+    }
+    .mobile-footer {
+        display: block;
+        
+        padding: 20px;
+        color: white;
+    }
+    .mobile-footer .about {
+        font-size: 22px;
+    }
+} */
